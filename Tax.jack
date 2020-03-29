@@ -1,0 +1,17 @@
+class Tax {
+  function void displayPrice(int a, int b) {
+    var int price;
+    var int percent;
+    var int tax;
+    var int all_price;
+
+    let price = a;
+    let percent = b;
+
+    let tax = (price / 100) * percent;
+    let all_price = price + tax;
+
+    do Output.printInt(all_price);
+    return;
+  }
+}

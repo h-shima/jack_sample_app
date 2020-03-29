@@ -1,0 +1,9 @@
+class Main {
+  function void main() {
+    var int price;
+    let price = Keyboard.readInt("Press the price and enter: ");
+
+    do Tax.displayPrice(price, 10);
+    return;
+  }
+}
